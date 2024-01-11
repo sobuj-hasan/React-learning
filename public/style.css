@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headingStyle{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.cardArea{
+    /* display: flex; */
+}
+.card{
+    background-color: aqua;
+    box-shadow: 2px 4px 2px gray;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cardTitle{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.cardDescription{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: darkslategray;
+}
+.cardDate{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+}
