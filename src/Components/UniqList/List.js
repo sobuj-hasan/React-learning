@@ -5,22 +5,22 @@ import { v4 as uuidv4 } from "uuid";
 const todos = [
   {
     id: uuidv4(),
-    title: "This is titme One",
+    title: "This is title One",
     description: "This is Description One, Lorem ipsum dolor sit amet",
   },
   {
     id: uuidv4(),
-    title: "This is titme Two",
+    title: "This is title Two",
     description: "This is Description One, Lorem ipsum dolor sit amet",
   },
   {
     id: uuidv4(),
-    title: "This is titme Three",
+    title: "This is title Three",
     description: "This is Description One, Lorem ipsum dolor sit amet",
   },
   {
     id: uuidv4(),
-    title: "This is titme Four",
+    title: "This is title Four",
     description: "This is Description One, Lorem ipsum dolor sit amet",
   },
 ];
