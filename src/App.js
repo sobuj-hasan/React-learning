@@ -7,6 +7,7 @@ import Card1 from "./Components/ClassComponents/Card1";
 import Card2 from "./Components/ClassComponents/Card2";
 import { FaFacebook, FaYoutube } from "react-icons/fa";
 import ReactBootstrap from "./Components/ReactBootstrap/ReactBootstrap";
+import State from "./Components/State/State";
 
 // function App(){
   // // Using for loop
@@ -176,6 +177,17 @@ import ReactBootstrap from "./Components/ReactBootstrap/ReactBootstrap";
   //   );
   // }
 
+
+// Use State, setState 
+  
+  const App = () => {
+    return (
+      <div>
+        <State />
+      </div>
+    )
+  }
+  
 
 export default App;
 
