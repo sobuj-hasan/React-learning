@@ -8,6 +8,10 @@ import Card2 from "./Components/ClassComponents/Card2";
 import { FaFacebook, FaYoutube } from "react-icons/fa";
 import ReactBootstrap from "./Components/ReactBootstrap/ReactBootstrap";
 import State from "./Components/State/State";
+import Web from "./Components/Web/index";
+
+
+
 
 // function App(){
   // // Using for loop
@@ -180,14 +184,26 @@ import State from "./Components/State/State";
 
 // Use State, setState 
   
-  const App = () => {
-    return (
-      <div>
-        <State />
-      </div>
-    )
-  }
-  
+  // const App = () => {
+  //   return (
+  //     <div>
+  //       <State />
+  //     </div>
+  //   )
+  // }
 
+
+// Conditional Rendering, Ternary, Short Circuit
+  // const App = () => {
+  //   return (
+  //     <div>
+  //       <Web />
+  //     </div>
+  //   )
+  // }
+  
+// =================================
+// // Checking the page top bellow
+// =================================
 export default App;
 
