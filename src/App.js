@@ -9,9 +9,31 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 import ReactBootstrap from "./Components/ReactBootstrap/ReactBootstrap";
 import State from "./Components/State/State";
 import Web from "./Components/Web/index";
+import EventHandeler from "./Components/EventHandeler/Index";
+import { Button } from "react-bootstrap";
+import EventBinding from "./Components/EventBinding";
 
 
+  // Event Binding
 
+  export default function App(){
+    return (
+      <div>
+        <EventBinding />
+      </div>
+    );
+  }
+
+
+// EventHandeler Class
+
+  // export default function App(){
+  //   return (
+  //     <div>
+  //       <EventHandeler />
+  //     </div>
+  //   );
+  // }
 
 // function App(){
   // // Using for loop
@@ -205,5 +227,7 @@ import Web from "./Components/Web/index";
 // =================================
 // // Checking the page top bellow
 // =================================
-export default App;
+
+
+// export default App;
 
