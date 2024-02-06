@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Components/Card";
 import Data from "./data.json";
 import List from "./Components/UniqList/List";
@@ -14,15 +14,39 @@ import { Button } from "react-bootstrap";
 import EventBinding from "./Components/EventBinding";
 
 
-  // Event Binding
+  // Update State
+  const App = () => {
 
-  export default function App(){
+    const [count, setCount] = useState(0);
+
+    const handleIncrement = () => {
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1);
+    }
+
     return (
       <div>
-        <EventBinding />
+        <h3>Counter : {count}</h3>
+        <Button className="btn btn-primary m-4" onClick={handleIncrement}>Increment +</Button>
       </div>
     );
-  }
+  };
+
+  export default App;
+
+
+
+
+  // Event Binding
+
+  // export default function App(){
+  //   return (
+  //     <div>
+  //       <EventBinding />
+  //     </div>
+  //   );
+  // }
 
 
 // EventHandeler Class
