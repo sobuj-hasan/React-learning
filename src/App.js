@@ -12,28 +12,40 @@ import Web from "./Components/Web/index";
 import EventHandeler from "./Components/EventHandeler/Index";
 import { Button } from "react-bootstrap";
 import EventBinding from "./Components/EventBinding";
+import Form from "./Components/Form/Form";
+import { DiVim } from "react-icons/di";
 
 
-  // Update State
-  const App = () => {
+  // Form - Controlled Component
 
-    const [count, setCount] = useState(0);
-
-    const handleIncrement = () => {
-      setCount((prevCount) => prevCount + 1);
-      setCount((prevCount) => prevCount + 1);
-      setCount((prevCount) => prevCount + 1);
-    }
-
-    return (
+  export default function App(){
+    return(
       <div>
-        <h3>Counter : {count}</h3>
-        <Button className="btn btn-primary m-4" onClick={handleIncrement}>Increment +</Button>
+        <Form />
       </div>
     );
-  };
+  }
 
-  export default App;
+  // // Update State
+  // const App = () => {
+
+  //   const [count, setCount] = useState(0);
+
+  //   const handleIncrement = () => {
+  //     setCount((prevCount) => prevCount + 1);
+  //     setCount((prevCount) => prevCount + 1);
+  //     setCount((prevCount) => prevCount + 1);
+  //   }
+
+  //   return (
+  //     <div>
+  //       <h3>Counter : {count}</h3>
+  //       <Button className="btn btn-primary m-4" onClick={handleIncrement}>Increment +</Button>
+  //     </div>
+  //   );
+  // };
+
+  // export default App;
 
 
 

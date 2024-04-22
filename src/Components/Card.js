@@ -1,21 +1,17 @@
+import React from 'react';
 const date = new Date();
 const dateName = date.getDate();
 const currentMonth = date.getMonth();
 const currentYear = date.getFullYear();
 
+
 // ======================
 //   22 Dec 2023
 // ======================
-function Card(props){
 
-  // //Destructuring
-  // const name = ['dog', 'cat'];
-  // name[0];
-  // name[1];
-  // // const [dog, cat] = name;
-  // const dog = name[0];
-  // const cat = name[1];
+// Your component code here
 
+const Card = (props) => {
   const {titleText, descText} = props;
   return (
     <div className="card">
@@ -26,5 +22,7 @@ function Card(props){
       <p className="cardDate">{dateName + "/" + currentMonth + "/" + currentYear}</p>
     </div>
   );
-}
+};
+
 export default Card;
+
